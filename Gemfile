@@ -7,7 +7,7 @@ gem 'bootstrap-sass', '~> 3.3.7'
 gem 'font-awesome-sass', '~> 5.0.9'
 gem 'simple_form'
 gem 'dotenv-rails'
-gem 'cloudinary'
+gem 'cloudinary', '~> 1.9.1'
 gem 'carrierwave'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
