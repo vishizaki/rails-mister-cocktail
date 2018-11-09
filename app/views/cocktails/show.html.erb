@@ -1,5 +1,8 @@
 <h1><%= @cocktail.name %></h1>
 
+<%= image_tag @cocktail.photo.url(:bright_face) %>
+
+
 
 <ul>
 <% @cocktail.doses.each do |dose| %>
@@ -21,4 +24,5 @@
 <br><br><br>
 
 
+<p><%= link_to "Delete this cocktail", cocktail_path(@cocktail), method: :delete, data: { confirm: "Are you sure?" } %></p>
 <p><%= link_to "Back to list", cocktails_path %></p>
