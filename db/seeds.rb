@@ -7,16 +7,16 @@
 #   Character.create!(name: 'Luke', movie: movies.first)
 puts 'Cleaning database...'
 Ingredient.destroy_all
-Cocktail.destroy_all
-Dose.destroy_all
+# Cocktail.destroy_all
+# Dose.destroy_all
 
 Ingredient.create!(name: "lemon")
 Ingredient.create!(name: "ice")
 Ingredient.create!(name: "mint leaves")
 
-Cocktail.create!(name: "Martini")
-Cocktail.create!(name: "Manhattan")
-Cocktail.create!(name: "Bloody Mary")
+# Cocktail.create!(name: "Martini")
+# Cocktail.create!(name: "Manhattan")
+# Cocktail.create!(name: "Bloody Mary")
 
 # Dose.create!(description: "6 cl")
 # Dose.create!(description: "10 cl")

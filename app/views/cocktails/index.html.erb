@@ -6,6 +6,7 @@
 
     <p>
        <%= link_to cocktail.name, cocktail_path(cocktail) %>
+       <%= link_to "Delete this cocktail", cocktail_path(cocktail), method: :delete, data: { confirm: "Are you sure?" } %>
        </p>
     <% end %>
 
